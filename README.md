@@ -25,5 +25,5 @@
 ## 发布流程
 
 由本地脚本发布（本仓库**不使用 GitHub Actions**）：
-`build/publish_release.py`（在源码仓库里），步骤为
+`.github/scripts/publish_release.py`（在源码仓库里），步骤为
 构建 APK → 创建 Release 并上传 → 更新本仓库的 `update.json`。
