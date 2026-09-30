@@ -1,8 +1,8 @@
 {
-    "versionName": "27.6.1",
-    "versionCode": 27006001,
-    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.6.1/Han1meViewer-v27.6.1.apk",
-    "updateDescription": "### 仓库迁移（重要）\n\n- 原 GitHub 仓库所属账号被平台暂停，导致 27.6.0 及更早版本的「检查更新」与「下载更新」**全部失效**。\n- 项目已迁至新的分发地址，从本版起更新通道恢复可用。\n- ⚠️ **本版无法通过应用内自动更新到达**（旧版本内置的更新地址已不可用），需要手动安装一次。\n\n### 其它\n\n- 版本号 27.6.1（versionCode 27006001），功能与 27.6.0 一致。",
+    "versionName": "27.7.0",
+    "versionCode": 27007000,
+    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.7.0/Han1meViewer-v27.7.0.apk",
+    "updateDescription": "### Iwara 账号关注\n\n- 作者页可独立关注/取消关注到 Iwara 账号，设置中可导入官网关注到本地。已有本地关注不会自动上传。\n\n### 外链播放\n\n- YouTube 官方隐私增强播放器接入应用 HTTP/SOCKS 代理和系统代理/VPN，新增视频失效、禁止嵌入和代理错误提示。网络须能访问 YouTube；站方限制仍生效。\n\n### 隐私设置\n\n- 新增无痕模式、分类同步、仅手动同步、后台重新锁定、任务预览遮挡、通知脱敏、剪贴板开关及记录/网页数据清理。\n- 禁止系统自动备份与迁移私有数据，仍可手动备份。\n- 真机登录后关注、WebView 代理播放与锁屏/通知仍待设备验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
