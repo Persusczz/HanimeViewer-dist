@@ -1,0 +1,9 @@
+{
+    "versionName": "27.6.1",
+    "versionCode": 27006001,
+    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.6.1/Han1meViewer-v27.6.1.apk",
+    "updateDescription": "### 仓库迁移（重要）\n\n- 原 GitHub 仓库所属账号被平台暂停，导致 27.6.0 及更早版本的「检查更新」与「下载更新」**全部失效**。\n- 项目已迁至新的分发地址，从本版起更新通道恢复可用。\n- ⚠️ **本版无法通过应用内自动更新到达**（旧版本内置的更新地址已不可用），需要手动安装一次。\n\n### 其它\n\n- 版本号 27.6.1（versionCode 27006001），功能与 27.6.0 一致。",
+    "forceUpdate": false,
+    "isShowAnnouncement": false,
+    "announcement": ""
+}
