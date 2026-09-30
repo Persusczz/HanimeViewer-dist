@@ -1,8 +1,8 @@
 {
-    "versionName": "27.7.0",
-    "versionCode": 27007000,
-    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.7.0/Han1meViewer-v27.7.0.apk",
-    "updateDescription": "### Iwara 账号关注\n\n- 作者页可独立关注/取消关注到 Iwara 账号，设置中可导入官网关注到本地。已有本地关注不会自动上传。\n\n### 外链播放\n\n- YouTube 官方隐私增强播放器接入应用 HTTP/SOCKS 代理和系统代理/VPN，新增视频失效、禁止嵌入和代理错误提示。网络须能访问 YouTube；站方限制仍生效。\n\n### 隐私设置\n\n- 新增无痕模式、分类同步、仅手动同步、后台重新锁定、任务预览遮挡、通知脱敏、剪贴板开关及记录/网页数据清理。\n- 禁止系统自动备份与迁移私有数据，仍可手动备份。\n- 真机登录后关注、WebView 代理播放与锁屏/通知仍待设备验收。",
+    "versionName": "27.8.0",
+    "versionCode": 27008000,
+    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.8.0/Han1meViewer-v27.8.0.apk",
+    "updateDescription": "### Iwara 官网互动\n\n- 新增官网点赞/取消点赞、评论分页与回复、自己评论的编辑和删除。权限、冷却和审核遵循官网规则。\n- 新增自己的官网播放列表创建、改名、删除、视频分页及增删。写操作不自动重试，结果不明时先刷新。\n\n### NJAV 图搜视频\n\n- 新增 AVScan 图搜：选图预览后确认上传，显示番号、相似度和时间点，一键在 NJAV 搜索。原生界面无广告和热搜。\n- 图片本地缩小并移除 EXIF，不保存图片或识别结果；图片将上传给 AVScan。识别不保证 NJAV 收录。\n- 真实账号写入与选图真机流程仍待设备验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
