@@ -1,8 +1,8 @@
 {
-    "versionName": "27.8.0",
-    "versionCode": 27008000,
-    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.8.0/Han1meViewer-v27.8.0.apk",
-    "updateDescription": "### Iwara 官网互动\n\n- 新增官网点赞/取消点赞、评论分页与回复、自己评论的编辑和删除。权限、冷却和审核遵循官网规则。\n- 新增自己的官网播放列表创建、改名、删除、视频分页及增删。写操作不自动重试，结果不明时先刷新。\n\n### NJAV 图搜视频\n\n- 新增 AVScan 图搜：选图预览后确认上传，显示番号、相似度和时间点，一键在 NJAV 搜索。原生界面无广告和热搜。\n- 图片本地缩小并移除 EXIF，不保存图片或识别结果；图片将上传给 AVScan。识别不保证 NJAV 收录。\n- 真实账号写入与选图真机流程仍待设备验收。",
+    "versionName": "27.9.0",
+    "versionCode": 27009000,
+    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.9.0/Han1meViewer-v27.9.0.apk",
+    "updateDescription": "### 互动与图搜体验改进\n\n- 修复 Iwara 评论与官网播放列表翻页失败时跳页，区分提交成功与刷新失败，写操作不自动重试。\n- 官网播放列表改为全屏管理，视频展示封面并可直接播放，账号设置入口也可播放。\n- 图搜新增系统选图和本地矩形裁剪，确认上传后才搜索，图片与结果不落盘。\n- 新增作者、标签与标题关键词屏蔽，支持站点范围、解除与撤销，应用于首页、搜索和推荐。\n- 作者与标签依赖站点提供的资料，部分列表缺失资料；真实账号写入与界面仍待设备验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
