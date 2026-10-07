@@ -1,8 +1,8 @@
 {
-    "versionName": "27.11.3",
-    "versionCode": 27011003,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.11.3/Han1meViewer-v27.11.3.apk",
-    "updateDescription": "### 修复：图库「打不开」「没有图集」\n\n- 点开任何相册都显示「打不开这个图集」——原因是详情请求跑在主线程上，被系统拦下。首页没有这个问题，所以之前一直没被发现。\n- 切到 hentai-cosplay-xxx 来源后一片空白——该站按客户端类型返回两套页面结构，而解析只认另一套。两套现在都认。\n- 相册标题全部显示成站点名，标签一直是空的，同样是那两套结构导致的。\n- 标题里的标点符号显示成一串汉字乱码，已修正。\n\n### 新增：榜单\n\n- 顶部新增频道栏：最新 / 热门 / 下载榜 / 收藏榜 / 点赞榜 / 最近。\n- 三家站点各自的排行入口已归位；某家没有对应榜单时不会硬凑，并会说明该频道的内容来自哪几家。\n\n### 新增：搜索\n\n- 顶栏新增搜索入口，一次同时搜三个站点，结果打散混排。\n- 按键盘上的「搜索」才会发起请求，避免半截关键词命中一堆无关内容。\n\n### 其它\n\n- 翻页改为三个站点一起翻。此前只有一家会翻，另外两家永远停在第一页——筛选到 hentai-cosplay-xxx 时表现为「再也加载不出内容」。\n- 筛选后为空时给出针对性的提示，不再和「本来就没有内容」混为一谈。",
+    "versionName": "27.11.4",
+    "versionCode": 27011004,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.11.4/Han1meViewer-v27.11.4.apk",
+    "updateDescription": "### 修复：搜索按钮上的字不对\n\n- 搜索栏展开后，顶部那个按钮仍然写着「搜索」——它此刻的作用其实是「退出搜索」，文案却一直没变，用户点与不点都拿不准。现已随状态切换。\n- 收起搜索栏时会一并清空输入框里残留的关键词，避免下次展开时框里还是旧词、而列表已经回到主页。\n\n### 说明\n\n- 本版只修这一处。27.11.3 的图库修复（打不开 / 没有图集 / 榜单 / 搜索）全部包含在内。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
