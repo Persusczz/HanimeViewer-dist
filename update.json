@@ -1,8 +1,8 @@
 {
-    "versionName": "27.9.0",
-    "versionCode": 27009000,
-    "downloadUrl": "https://github.com/Wanttosleep2005/HanimeViewer-dist/releases/download/v27.9.0/Han1meViewer-v27.9.0.apk",
-    "updateDescription": "### 互动与图搜体验改进\n\n- 修复 Iwara 评论与官网播放列表翻页失败时跳页，区分提交成功与刷新失败，写操作不自动重试。\n- 官网播放列表改为全屏管理，视频展示封面并可直接播放，账号设置入口也可播放。\n- 图搜新增系统选图和本地矩形裁剪，确认上传后才搜索，图片与结果不落盘。\n- 新增作者、标签与标题关键词屏蔽，支持站点范围、解除与撤销，应用于首页、搜索和推荐。\n- 作者与标签依赖站点提供的资料，部分列表缺失资料；真实账号写入与界面仍待设备验收。",
+    "versionName": "27.11.0",
+    "versionCode": 27011000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.11.0/Han1meViewer-v27.11.0.apk",
+    "updateDescription": "### Cosplay 图库聚合（新）\n\n- 新增「图库」页：cosplaytele、hentai-cosplay-xxx、cosplayrule34 三个写真站的相册整合在一页浏览，可筛选来源、搜索并翻页加载。\n- 相册详情支持网格预览与全屏查看，点击缩略图可左右滑动浏览整册。\n- 三家取数方式各不相同，均已适配；cosplayrule34 线路不可直达，已接入内置中转，另两家仍直连。\n- 修复中转无法转发带请求内容的接口，此前会导致 cosplayrule34 相册只能看到前 2 张。\n\n### 并入 27.10.0 的内容\n\n- 收藏、稍后看、观看记录与已下载新增标题/编号搜索、站点筛选和排序，只改显示不改数据。\n- 下载设置新增「仅在 Wi-Fi 下下载」，切到移动数据自动暂停，回到 Wi-Fi 后续传。\n- 新增桌面长按快捷方式：搜索、下载、关注动态、继续观看；开启伪装图标或应用锁时自动撤下。\n- Iwara 帖子改为应用内阅读，关注动态可手动加载更早作品，播放器新增截图（安全模式下隐藏）。\n- 站点筛选按封面域名与编号推断，无法判断的条目只在「全部」中显示；快捷方式与截图仍待设备验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
