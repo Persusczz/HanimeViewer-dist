@@ -1,8 +1,8 @@
 {
-    "versionName": "27.13.0",
-    "versionCode": 27013000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.13.0/Han1meViewer-v27.13.0.apk",
-    "updateDescription": "### Cosplay 长按保存图片\n\n- 相册网格与全屏图片均支持长按，直接保存当前原图到系统相册 Pictures/HanimeViewer。\n- 保留 JPEG、PNG、WebP、GIF 与 AVIF 原始格式和字节，沿用图库网络配置与站点请求头，不下载网格缩略图或重新压缩。\n- 提供保存中、成功和失败提示，全屏查看内同步显示状态；同一张图片下载期间重复长按不会重复创建任务。\n- 下载不完整、写入失败或取消时清理未完成文件；原有单击查看、翻页和缩放回调保留。\n\n### 验证\n\n- 原图格式、完整写入与各类失败清理单测通过。\n- 本机未连接 Android 设备，尚未完成真机手势与系统相册验收。",
+    "versionName": "27.13.1",
+    "versionCode": 27013001,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.13.1/Han1meViewer-v27.13.1.apk",
+    "updateDescription": "### 修复 HentaiCosplay 封面与相册图片长时间加载\n\n- 补齐静态图床的现有 CDN 中转白名单；直连 DNS、连接或正文超时，以及 403、429、服务端错误时自动尝试备用路径，尊重中转开关。\n- 预读图片正文，空响应或 HTML 拦截页触发兜底，正常直连和 404 保持原路径。\n- 减少该来源的两层重复重试，两条路径均失败后显示失败占位。\n- 封面、网格、全屏查看和长按保存共用修复后的链路，保留原图文件字节。\n\n### 验证\n\n- 两个图床的 6 张封面和 2 张相册原图经中转返回原始字节；强制模拟直连 DNS 失败，8 张图片全部恢复加载。\n- 直连失败、正文超时、请求头和字节保留、域名范围与重试预算回归测试通过。\n- 本机未连接 Android 设备，尚未完成用户手机网络下的界面验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
