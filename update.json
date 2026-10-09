@@ -1,8 +1,8 @@
 {
-    "versionName": "27.13.1",
-    "versionCode": 27013001,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.13.1/Han1meViewer-v27.13.1.apk",
-    "updateDescription": "### 修复 HentaiCosplay 封面与相册图片长时间加载\n\n- 补齐静态图床的现有 CDN 中转白名单；直连 DNS、连接或正文超时，以及 403、429、服务端错误时自动尝试备用路径，尊重中转开关。\n- 预读图片正文，空响应或 HTML 拦截页触发兜底，正常直连和 404 保持原路径。\n- 减少该来源的两层重复重试，两条路径均失败后显示失败占位。\n- 封面、网格、全屏查看和长按保存共用修复后的链路，保留原图文件字节。\n\n### 验证\n\n- 两个图床的 6 张封面和 2 张相册原图经中转返回原始字节；强制模拟直连 DNS 失败，8 张图片全部恢复加载。\n- 直连失败、正文超时、请求头和字节保留、域名范围与重试预算回归测试通过。\n- 本机未连接 Android 设备，尚未完成用户手机网络下的界面验收。",
+    "versionName": "27.14.0",
+    "versionCode": 27014000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.14.0/Han1meViewer-v27.14.0.apk",
+    "updateDescription": "### Cosplay 标签跨站搜索\n\n- 点击标签默认同时搜索三个图库站点，合并显示全部来源的结果。\n- 原站保留精确标签筛选，另外两站按标签文字搜索，避免复用不同站点的标签 ID 或 slug。各站的标签命名与搜索范围仍有差异。\n- 普通搜索提交时也默认选择全部来源；可切换单站或全部并保留当前标签、关键词，各站独立分页与失败重试。\n- 标签目录支持键盘搜索和“在全部来源中搜索图集”入口，直接输入标签即可查找三站图集。\n\n### 验证\n\n- 真实 NIKKE 查询在三站均有结果，生产仓库与解析器快照测试第一页合并 37 个图集、第二页新增 39 个，分页与来源筛选验证通过。\n- 本机未连接 Android 设备，尚未完成搜索操作的真机验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
