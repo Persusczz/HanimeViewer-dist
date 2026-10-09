@@ -1,8 +1,8 @@
 {
-    "versionName": "27.14.0",
-    "versionCode": 27014000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.14.0/Han1meViewer-v27.14.0.apk",
-    "updateDescription": "### Cosplay 标签跨站搜索\n\n- 点击标签默认同时搜索三个图库站点，合并显示全部来源的结果。\n- 原站保留精确标签筛选，另外两站按标签文字搜索，避免复用不同站点的标签 ID 或 slug。各站的标签命名与搜索范围仍有差异。\n- 普通搜索提交时也默认选择全部来源；可切换单站或全部并保留当前标签、关键词，各站独立分页与失败重试。\n- 标签目录支持键盘搜索和“在全部来源中搜索图集”入口，直接输入标签即可查找三站图集。\n\n### 验证\n\n- 真实 NIKKE 查询在三站均有结果，生产仓库与解析器快照测试第一页合并 37 个图集、第二页新增 39 个，分页与来源筛选验证通过。\n- 本机未连接 Android 设备，尚未完成搜索操作的真机验收。",
+    "versionName": "27.15.0",
+    "versionCode": 27015000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.15.0/Han1meViewer-v27.15.0.apk",
+    "updateDescription": "### Cosplay 独立图库与本机资料库\n\n- 从首页“图库”进入完整页面，提供发现、喜欢、收藏、关注、下载分区。\n- 三个图库均支持独立的喜欢／收藏，本地按来源、标题、标签和作者查找；有可识别作者资料时可关注并查看原站作品。\n- 长按图片先询问“是否保存到本地”，确认后保存原图。\n- 新增后台整套下载、进度、取消与失败后继续；校验完整清单，已保存文件不重复下载。图片位于系统相册 Pictures/HanimeViewer 的图集子目录。\n- 喜欢、收藏与图库关注保存在本机，暂不参与账号同步或视频列表导出。\n\n### 原站首页组件\n\n- Hanime：动画类型快捷筛选、新番预告。\n- NJAV：原站女优月榜预览、VR／中文字幕／泄漏／日周月热门入口。\n- Pornhub：日／周／月／总热门榜切换、分类快捷入口，独立加载和重试。\n\n### Pornhub 代理封面修复\n\n- 应用代理、系统代理或 VPN 可用时优先使用用户线路，失败才切换原有备用线路。\n- 保留原始签名地址与图片字节，识别正文卡住、HTML 拦截页并限制重复尝试，减少封面转圈和失败。\n\n### 验证\n\n- 三站真实相册快照验证 80、40、72、42 张原图下载清单；覆盖失败继续、不完整清单、去重、取消和本地状态持久化。\n- 本机代理下通过生产图片拦截器实测 10 张 Pornhub 封面，全部加载成功。\n- 本机未连接 Android 设备，尚未完成新界面、后台下载及用户手机网络的真机验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
