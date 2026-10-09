@@ -1,8 +1,8 @@
 {
-    "versionName": "27.12.0",
-    "versionCode": 27012000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.12.0/Han1meViewer-v27.12.0.apk",
-    "updateDescription": "### Cosplay 图库浏览升级\n\n- 新增原站分类与标签目录：CosplayTele 分类／标签支持服务端搜索与分页，HentaiCosplay 支持标签目录分页，Rule34 保留分类及当前图集中的 Coser、角色、作品链接。\n- 卡片与详情页的标签可直接点击，按原站 ID 或 slug 精确筛选。关键词搜索和支持分页的榜单可继续加载；CosplayTele 时间榜保持原站单页行为。\n- 修复三站图片默认请求头导致的 403：为图库图片补齐浏览器 User-Agent 与本站 Referer，封面、相册网格和全屏查看均使用同一图片链路。\n- 图集卡片补齐来源、日期、图片数和各站榜单名次；筛选栏在加载、失败和空结果时保留。\n- 刷新保留来源筛选，各站分别记录下一页；失败后可手动重试，避免跳页和触底反复请求。\n- 详情页支持重新加载及图片清单不完整提示，新增文案覆盖英文、简中和繁中。\n\n### 站点差异\n\n- HentaiCosplay 的目录搜索筛选已载入的标签，可继续加载更多；Rule34 的 Coser／角色／作品来自当前图集，不提供虚构的全站标签目录或跨站统一热度数值。\n- HentaiCosplay 关键词搜索可能返回站点推荐内容，保留原站搜索行为。",
+    "versionName": "27.13.0",
+    "versionCode": 27013000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.13.0/Han1meViewer-v27.13.0.apk",
+    "updateDescription": "### Cosplay 长按保存图片\n\n- 相册网格与全屏图片均支持长按，直接保存当前原图到系统相册 Pictures/HanimeViewer。\n- 保留 JPEG、PNG、WebP、GIF 与 AVIF 原始格式和字节，沿用图库网络配置与站点请求头，不下载网格缩略图或重新压缩。\n- 提供保存中、成功和失败提示，全屏查看内同步显示状态；同一张图片下载期间重复长按不会重复创建任务。\n- 下载不完整、写入失败或取消时清理未完成文件；原有单击查看、翻页和缩放回调保留。\n\n### 验证\n\n- 原图格式、完整写入与各类失败清理单测通过。\n- 本机未连接 Android 设备，尚未完成真机手势与系统相册验收。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
