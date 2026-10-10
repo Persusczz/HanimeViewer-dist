@@ -1,8 +1,8 @@
 {
-    "versionName": "27.15.0",
-    "versionCode": 27015000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.15.0/Han1meViewer-v27.15.0.apk",
-    "updateDescription": "### Cosplay 独立图库与本机资料库\n\n- 从首页“图库”进入完整页面，提供发现、喜欢、收藏、关注、下载分区。\n- 三个图库均支持独立的喜欢／收藏，本地按来源、标题、标签和作者查找；有可识别作者资料时可关注并查看原站作品。\n- 长按图片先询问“是否保存到本地”，确认后保存原图。\n- 新增后台整套下载、进度、取消与失败后继续；校验完整清单，已保存文件不重复下载。图片位于系统相册 Pictures/HanimeViewer 的图集子目录。\n- 喜欢、收藏与图库关注保存在本机，暂不参与账号同步或视频列表导出。\n\n### 原站首页组件\n\n- Hanime：动画类型快捷筛选、新番预告。\n- NJAV：原站女优月榜预览、VR／中文字幕／泄漏／日周月热门入口。\n- Pornhub：日／周／月／总热门榜切换、分类快捷入口，独立加载和重试。\n\n### Pornhub 代理封面修复\n\n- 应用代理、系统代理或 VPN 可用时优先使用用户线路，失败才切换原有备用线路。\n- 保留原始签名地址与图片字节，识别正文卡住、HTML 拦截页并限制重复尝试，减少封面转圈和失败。\n\n### 验证\n\n- 三站真实相册快照验证 80、40、72、42 张原图下载清单；覆盖失败继续、不完整清单、去重、取消和本地状态持久化。\n- 本机代理下通过生产图片拦截器实测 10 张 Pornhub 封面，全部加载成功。\n- 本机未连接 Android 设备，尚未完成新界面、后台下载及用户手机网络的真机验收。",
+    "versionName": "27.15.1",
+    "versionCode": 27015001,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.15.1/Han1meViewer-v27.15.1.apk",
+    "updateDescription": "### Pornhub 手机 VPN／代理播放修复\n\n- 修复 HLS 主清单未带 Referer，导致后续视频分片返回 404、提示播放链接可能有误的问题。\n- 为主清单、子清单、分片与密钥补齐 Referer 和桌面 User-Agent；播放及下载保留原始签名查询串和 Range。\n- MPV 请求头列表转义浏览器 User-Agent 中的逗号，避免标识被拆坏。\n- 手机 VPN／应用或系统代理开启时，详情页、embed 和媒体使用同一条用户线路，避免签发播放地址与读取视频时切换出口。\n- 封面继续保留独立的失败回退，未开启代理时沿用已有中转策略。\n\n### 验证\n\n- 先复现失败测试，再验证 HLS 请求头继承、VPN 一致选路、签名／Range 保留及其他站点隔离。\n- 本机代理下以生产解析器和拦截器实测三组视频，清单返回 200，首分片返回 206 和 65,536 字节有效 MPEG-TS 数据。\n- Release Kotlin 编译与完整测试通过：466 项测试中 464 项通过，2 项原有可选测试跳过；另验证 10 张真实封面全部正常。\n- 本机未连接 Android 设备，手机 VPN 的实际播放器验收仍需真机确认。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
