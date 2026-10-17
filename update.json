@@ -1,8 +1,8 @@
 {
-    "versionName": "27.15.1",
-    "versionCode": 27015001,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.15.1/Han1meViewer-v27.15.1.apk",
-    "updateDescription": "### Pornhub 手机 VPN／代理播放修复\n\n- 修复 HLS 主清单未带 Referer，导致后续视频分片返回 404、提示播放链接可能有误的问题。\n- 为主清单、子清单、分片与密钥补齐 Referer 和桌面 User-Agent；播放及下载保留原始签名查询串和 Range。\n- MPV 请求头列表转义浏览器 User-Agent 中的逗号，避免标识被拆坏。\n- 手机 VPN／应用或系统代理开启时，详情页、embed 和媒体使用同一条用户线路，避免签发播放地址与读取视频时切换出口。\n- 封面继续保留独立的失败回退，未开启代理时沿用已有中转策略。\n\n### 验证\n\n- 先复现失败测试，再验证 HLS 请求头继承、VPN 一致选路、签名／Range 保留及其他站点隔离。\n- 本机代理下以生产解析器和拦截器实测三组视频，清单返回 200，首分片返回 206 和 65,536 字节有效 MPEG-TS 数据。\n- Release Kotlin 编译与完整测试通过：466 项测试中 464 项通过，2 项原有可选测试跳过；另验证 10 张真实封面全部正常。\n- 本机未连接 Android 设备，手机 VPN 的实际播放器验收仍需真机确认。",
+    "versionName": "27.15.2",
+    "versionCode": 27015002,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.15.2/Han1meViewer-v27.15.2.apk",
+    "updateDescription": "### NJAV 女优关注与头像修复\n\n- 根据站点卡片与作者页的规范链接，关联同一位女优的中文名、日文名及旧路径，统一排行榜、视频页和关注列表的身份判断。\n- 修复关注按钮在不同入口状态不一致、同一女优重复关注，以及日文名查询不到头像的问题。\n- 直接读取作者资料头的真实头像；缓存未覆盖的关注作者可以通过自己的作者页补齐，不再只依赖排行榜和索引前几页。\n- 补齐资料后统一显示站点名称与规范主页，旧关注记录保留原有顺序及已读／新作状态，补资料不会恢复已取消的关注。\n- 没有真实头像的作者仍显示名字占位，不借用其他作者头像；视频资料更新不会重建播放器。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
