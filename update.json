@@ -1,8 +1,8 @@
 {
-    "versionName": "27.16.1",
-    "versionCode": 27016001,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.16.1/Han1meViewer-v27.16.1.apk",
-    "updateDescription": "### 页面布局减负调整\n\n- 撤下各页顶部重复标题、说明句与计数的概览块，首页恢复原有栏目结构，内容回到首屏。\n- 视频卡片去掉每张相同的站点角标与分类标签，作者合并为一行，同排卡片高度一致。\n- 关注页筛选改为圆角搜索框，站点标签只列有关注的站点；下载数量只保留在标签页上。\n- 修复详情页相关推荐按旧留白计算列数；操作改为等宽网格，一次完整显示。\n- 保留作者头像持久缓存、关注列表惰性加载与本地详情不虚构播放量。",
+    "versionName": "27.16.2",
+    "versionCode": 27016002,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.16.2/Han1meViewer-v27.16.2.apk",
+    "updateDescription": "### 作者头像修复与内容扩充\n\n- 修复作者头像一直停在加载中：头像请求未走代理与中转线路，现与封面使用同一网络通道。\n- 播放页简介区首先显示作者，头像与关注按钮更醒目；相关推荐前增加该作者的更多作品。\n- 新增「夜间」主题：在预设配色中选择后始终为深色，底色接近纯黑，文字亮度更低。\n- 首页按站点追加 nJAV 素人／FC2／一本道／麻豆、Pornhub 亚洲／熟女、Iwara 最多喜欢／人气栏目，滑到时才加载。\n- 作者页补充 Pornhub 排名、简介与资料，Iwara 横幅、简介、加入日期与作品数；两站作品可切换排序。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
