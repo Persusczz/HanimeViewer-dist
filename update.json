@@ -1,8 +1,8 @@
 {
-    "versionName": "27.16.2",
-    "versionCode": 27016002,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.16.2/Han1meViewer-v27.16.2.apk",
-    "updateDescription": "### 作者头像修复与内容扩充\n\n- 修复作者头像一直停在加载中：头像请求未走代理与中转线路，现与封面使用同一网络通道。\n- 播放页简介区首先显示作者，头像与关注按钮更醒目；相关推荐前增加该作者的更多作品。\n- 新增「夜间」主题：在预设配色中选择后始终为深色，底色接近纯黑，文字亮度更低。\n- 首页按站点追加 nJAV 素人／FC2／一本道／麻豆、Pornhub 亚洲／熟女、Iwara 最多喜欢／人气栏目，滑到时才加载。\n- 作者页补充 Pornhub 排名、简介与资料，Iwara 横幅、简介、加入日期与作品数；两站作品可切换排序。",
+    "versionName": "27.17.0",
+    "versionCode": 27017000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.17.0/Han1meViewer-v27.17.0.apk",
+    "updateDescription": "### Pornhub 演员排行\n\n- 新增原站 Pornstars／Models 演员榜单，在 Pornhub 分类页与首页发现区进入。\n- 支持人气、最多观看、热度上升、最多订阅和作品数排序；周期选项按原站支持范围显示。\n- 可组合筛选职业演员／素人、性别与族裔，显示原站排名、头像、作品数和观看量。\n- 点击演员进入其真实作品页，可继续排序、翻页和关注；榜单支持加载更多、失败重试与重置筛选。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
