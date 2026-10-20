@@ -3,11 +3,11 @@
 本仓库**只放构建产物**（`update.json` 与各版本 APK），**不含任何源码**。
 源码在私有仓库中，不对公众开放。
 
-## 最新版本：27.16.2
+## 最新版本：27.17.0
 
-- [直接下载 APK](https://persusczz.github.io/HanimeViewer-dist/releases/download/v27.16.2/Han1meViewer-v27.16.2.apk)
-- [GitHub Release 备用下载](https://github.com/Persusczz/HanimeViewer-dist/releases/tag/v27.16.2)
-- [SHA-256 校验文件](https://persusczz.github.io/HanimeViewer-dist/releases/download/v27.16.2/Han1meViewer-v27.16.2.apk.sha256)
+- [直接下载 APK](https://persusczz.github.io/HanimeViewer-dist/releases/download/v27.17.0/Han1meViewer-v27.17.0.apk)
+- [GitHub Release 备用下载](https://github.com/Persusczz/HanimeViewer-dist/releases/tag/v27.17.0)
+- [SHA-256 校验文件](https://persusczz.github.io/HanimeViewer-dist/releases/download/v27.17.0/Han1meViewer-v27.17.0.apk.sha256)
 
 ## 这个仓库是干什么的
 
