@@ -1,8 +1,8 @@
 {
-    "versionName": "27.17.0",
-    "versionCode": 27017000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.17.0/Han1meViewer-v27.17.0.apk",
-    "updateDescription": "### Pornhub 演员排行\n\n- 新增原站 Pornstars／Models 演员榜单，在 Pornhub 分类页与首页发现区进入。\n- 支持人气、最多观看、热度上升、最多订阅和作品数排序；周期选项按原站支持范围显示。\n- 可组合筛选职业演员／素人、性别与族裔，显示原站排名、头像、作品数和观看量。\n- 点击演员进入其真实作品页，可继续排序、翻页和关注；榜单支持加载更多、失败重试与重置筛选。",
+    "versionName": "27.17.1",
+    "versionCode": 27017001,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v27.17.1/Han1meViewer-v27.17.1.apk",
+    "updateDescription": "### 排名、封面缓存与跨站播放修复\n\n- 演员人气榜按原站名次升序排列，观看量与作品数榜按对应数值降序排列，加载更多后重新合并排序；热度、订阅榜保留原站顺序。\n- 影片封面按「站点＋影片」保存到独立的 512 MiB 持久缓存；加载成功后，重启应用或封面签名地址变化时可继续复用，不批量下载未浏览的封面。\n- 旧封面加载失败时，从影片所属站点更新封面地址，保留喜欢状态、清单归属和原有排序；已有图片缓存按需迁入，设置中可查看并清理。\n- 修复在 Pornhub 页面打开 NJAV 等其它站点的喜欢、稍后看、历史、播放清单及收藏夹影片时丢失来源的问题；详情、评论与报错跟随影片来源。\n- 仅有缓存成功过的封面才能离线显示；从未加载成功的旧封面需要联网更新一次。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
