@@ -1,8 +1,8 @@
 {
-    "versionName": "1.0",
-    "versionCode": 28000000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v1.0/Han1meViewer-v1.0.apk",
-    "updateDescription": "### 1.0 正式版\n\n- hanime 首页分类完整展开，补齐 AI 生成、Cosplay、新番预告与高级筛选入口；栏目按名称识别，避免广告或顺序变化导致串栏。\n- 新番月历先读取原站预告，旧接口不可用时接入原站新番预告分类并按月份筛选，不再固定屏蔽 2026 年 5 月之后的预告。\n- nJAV 接入原站推荐给你与续页，匿名读取推荐；首页从一份页面解析原生栏目，其余榜单滑到时再加载。\n- Pornhub 视频卡片改为作者与观看量一行、三行标题和独立菜单，首页横向卡片加宽。\n- Cosplay 图库使用独立顶栏、底部五区导航，来源与排序收进紧凑选择器，为网格留出空间。\n- 更新提示覆盖在当前页面上，支持更新或忽略此版本；手动检查更新可重新发现被忽略的版本。\n- 显示版本改为 1.0，内部版本码继续递增至 28000000，可覆盖安装 27.17.1；签名与本地数据保持兼容。\n- 中转升级 v25：有界公开图片缓存、并发重复请求合并及按收益压缩文本；不缓存账号响应、登录页或视频流，保持 Range 原始字节。",
+    "versionName": "1.1.0",
+    "versionCode": 28001000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v1.1.0/Han1meViewer-v1.1.0.apk",
+    "updateDescription": "### 1.1.0 更新\n\n- 更新弹窗和手动检查更新支持选择「自动选择」「镜像加速」或「GitHub 直连」。\n- 镜像加速在同版本 Pages 安装包与备用加速通道中并发探活；GitHub 直连仅使用原始 Release 下载。自动选择保留全部通道。\n- 下载失败后可重新选择来源；切换来源时清理其他来源的半截包，同源重试保留断点续传，并继续核对包内版本与安装签名。\n- 源码仓库保持私有，客户端更新不需要仓库账号或 Token。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
