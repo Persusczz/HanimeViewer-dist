@@ -1,8 +1,8 @@
 {
-    "versionName": "1.2.0",
-    "versionCode": 28002000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v1.2.0/Han1meViewer-v1.2.0.apk",
-    "updateDescription": "### 1.2.0 更新\n\n- 整合原仓库 1.1.0 的兼容更新：备用媒体 CDN、OLED 纯黑、退出确认开关、视频搜索分页，以及本地日文汉字与繁简归一化。\n- 新增单集循环、hanime 系列自动续播和已观看进度阈值（默认 90%）；保留原有历史标记。\n- 下载支持自动分组、系列名或标题命名、编辑组名及繁简转换，并归入同系列中尚未分组的已有下载。\n- 清理 1.0 之前的功能介绍、更新说明和旧 Release 正文，保留 APK、标签与 Git 历史。\n- 继续支持自动、镜像加速或 GitHub 直连更新；源码保持私有。",
+    "versionName": "1.3.0",
+    "versionCode": 28003000,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v1.3.0/WannaViewer-v1.3.0.apk",
+    "updateDescription": "### 1.3.0 更新\n\n- 应用改名为 WannaViewer，启动图标重新设计；包名与签名不变，可直接覆盖升级。\n- 首页去掉各站快捷词按钮并放大视频卡片；播放页重排，常用操作收成一排，相关影片改为竖排列表。\n- 播放清单与收藏夹合并为「收藏夹」，影片页可直接新建；关注动态改为只看最近 7 天各作者的新作。\n- hanime 作者页改读站点真实作者页，显示订阅者数与作品数；各站作者作品页数以站点页码条为准。\n- hanime 新番列表按月分为「即将上市」与「已上市」，显示站方上市日，可往后翻看下月预告。",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
