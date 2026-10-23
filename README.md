@@ -3,11 +3,13 @@
 本仓库**只放构建产物**（`update.json` 与各版本 APK），**不含任何源码**。
 源码在私有仓库中，不对公众开放。
 
-## 最新版本：1.2.0
+## 最新版本：1.3.0
 
-- [直接下载 APK](https://persusczz.github.io/HanimeViewer-dist/releases/download/v1.2.0/Han1meViewer-v1.2.0.apk)
-- [GitHub Release 备用下载](https://github.com/Persusczz/HanimeViewer-dist/releases/tag/v1.2.0)
-- [SHA-256 校验文件](https://persusczz.github.io/HanimeViewer-dist/releases/download/v1.2.0/Han1meViewer-v1.2.0.apk.sha256)
+应用自 1.3.0 起改名为 **WannaViewer**（包名与签名不变，可直接覆盖升级）。
+
+- [直接下载 APK](https://persusczz.github.io/HanimeViewer-dist/releases/download/v1.3.0/WannaViewer-v1.3.0.apk)
+- [GitHub Release 备用下载](https://github.com/Persusczz/HanimeViewer-dist/releases/tag/v1.3.0)
+- [SHA-256 校验文件](https://persusczz.github.io/HanimeViewer-dist/releases/download/v1.3.0/WannaViewer-v1.3.0.apk.sha256)
 
 ## 这个仓库是干什么的
 
@@ -19,8 +21,8 @@
 | GitHub raw | `https://raw.githubusercontent.com/Persusczz/HanimeViewer-dist/main/update.json` |
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Persusczz/HanimeViewer-dist@main/update.json` |
 
-各版本的安装包放在 [Releases](https://github.com/Persusczz/HanimeViewer-dist/releases)，命名固定为
-`Han1meViewer-v<版本号>.apk`。
+各版本的安装包放在 [Releases](https://github.com/Persusczz/HanimeViewer-dist/releases)，1.3.0 起命名为
+`WannaViewer-v<版本号>.apk`（同一安装包另附旧名 `Han1meViewer-v<版本号>.apk`，供旧版客户端的兜底更新路径使用）。
 
 ## 为什么源码和产物要分开
 
