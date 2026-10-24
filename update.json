@@ -1,8 +1,8 @@
 {
-    "versionName": "1.3.0",
-    "versionCode": 28003000,
-    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v1.3.0/WannaViewer-v1.3.0.apk",
-    "updateDescription": "### 1.3.0 更新\n\n- 应用改名为 WannaViewer，启动图标重新设计；包名与签名不变，可直接覆盖升级。\n- 首页去掉各站快捷词按钮并放大视频卡片；播放页重排，常用操作收成一排，相关影片改为竖排列表。\n- 播放清单与收藏夹合并为「收藏夹」，影片页可直接新建；关注动态改为只看最近 7 天各作者的新作。\n- hanime 作者页改读站点真实作者页，显示订阅者数与作品数；各站作者作品页数以站点页码条为准。\n- hanime 新番列表按月分为「即将上市」与「已上市」，显示站方上市日，可往后翻看下月预告。",
+    "versionName": "1.3.1",
+    "versionCode": 28003001,
+    "downloadUrl": "https://github.com/Persusczz/HanimeViewer-dist/releases/download/v1.3.1/WannaViewer-v1.3.1.apk",
+    "updateDescription": "### 1.3.1 更新\n\n- 修复「数据和隐私 → 伪装应用」部分桌面换不了图标、换完图标消失的问题：改为先启用新图标再停用旧图标；切换前会提示，确认后应用退出，从桌面新图标重新进入即可。\n- 关注与订阅默认只显示当前站点的关注，顶部可切到「全部站点」（会记住）；关注动态的默认站点也跟着这个选择。\n- 关注与订阅右上角新增「清除新作角标」按钮，一键清掉当前范围内所有头像角标，下次检查不会再算回来。\n- 修复作者页按热门 / 最早排序看过后，新作角标把整页旧作误报成新作的问题。\n- nJAV 首页「推荐给你」「本周热门」等栏目不再一行一个加载条：上次的内容会先显示，首页加载完后在后台按顺序预取。（装完新版第一次打开仍需加载一次。）",
     "forceUpdate": false,
     "isShowAnnouncement": false,
     "announcement": ""
